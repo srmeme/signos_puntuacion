@@ -42,6 +42,59 @@ def reglas_puntuacion(opcion):
     ABC
     """
 
+    coma ="""
+    De manera similar a las separaciones entre ideas que el punto establece al interior de un párrafo, la coma marca una separación entre las palabras al interior del enunciado. El signo de puntuación conocido como la coma no se divide en subcategorías – como ya hemos visto que sucede con el punto –, en cambio, la coma presenta más riqueza en cuanto a su utilización se refiere.
+
+    Se piensa comúnmente que la coma puede utilizarse para crear pausas al interior de un enunciado. ¡No hay nada más falso! Si bien es cierto que algunas pausas del lenguaje hablado pueden coincidir con los diferentes usos de la coma, la verdadera función de este signo de puntuación es la de marcar una separación entre palabras, estructuras de palabras y algunos tipos de oraciones.
+
+    Estos son los usos lingüísticos de la coma:
+
+    La coma sirve para crear un listado o una enumeración dentro de un enunciado.
+    Utilizar la coma al interior de un enunciado para marcar correctamente una secuencia de palabras es el uso más frecuente de este signo ortográfico. Puedes empelar la coma para separar los miembro de una enumeración siempre y cuando no olvides que no es correcto colocar una coma después de una conjunción; en este caso, la conjunción toma el papel de la coma.
+
+    Este chico es muy reservado, estudioso y de buena familia.
+
+    Acudió toda la familia: abuelos, padres, hijos, cuñados, etc.
+
+    ¿Quieres café o un refresco?
+
+    La coma sirve para marcar una pausa antes o después de un vocativo.
+    Los vocativos se utilizan para llamar o invocar a una persona o cosa. En el lenguaje hablado no hacemos una pausa entre el vocativo y el resto de la oración dado que nuestra intención es bastante clara. El sentido de un enunciado podría cambiar completamente si decidimos omitir la coma entre el vocativo.
+
+    Muchachos, hay algo importante que tengo que decirles.
+
+    Camina más despacio, Manuel.
+
+    Es hora de comer, niños.
+
+    La coma sirve para separar oraciones breves dentro de un enunciado.
+    Un enunciado puede estar formado por varias oraciones cortas e independientes. Aun si estas oraciones están compuestas por dos elementos, éstas expresarán expresarán un mensaje siempre y cuando cuenten con un sujeto y un predicado. La coma puede auxiliarnos en la tarea de ordenar estas pequeñas oraciones sin la necesidad de colocar un punto y aparte en el lugar donde no es necesario.
+
+    Soy estudiante, soy mujer, me gusta leer, corro seguido y duermo temprano.
+
+    Apenas recibieron el pago, se fueron a gastarlo.
+
+    Esperamos tranquilos toda la noche, la mujer llegó con los regalos a la mañana siguiente.
+
+    La coma sirve para hacer un elipsis u omisión del verbo.
+    Una elipsis es un recurso que podemos utilizar en algunos casos para omitir un término que ya se ha mencionado antes o está sobrentendido. La coma nos ayudará para emplear correctamente la elipsis del verbo sin alterar el significado de la oración.
+
+    Juan es abogado; ella, contadora.
+
+    Me gusta beber café por la mañana; en la noche, una copa de vino.
+
+    En un funeral debes vestir de negro; en una boda, blanco.
+
+    La coma sirve para crear un paréntesis al interior de un enunciado y colocar, de esta manera, información adicional o extra.
+    Los paréntesis, al igual que las rayas, son los signos de puntuación empleados para añadir información adicional en un mismo enunciado. Esta información extra se expresa a través de oraciones complementarias que, al parecer, no tienen relación con el resto del enunciado. En ocasiones, la coma ocupará el lugar los paréntesis o de las rayas como su puede observar en los siguientes ejemplos:
+
+    Ayer por la mañana, como es mi costumbre, llegué con bastante anticipación a la junta.
+
+    El ejercicio físico es considerado, al igual que la correcta alimentación, como el mejor método para bajar de peso.
+
+    La torre Eiffel, uno de los destinos turísticos más populares en todo el mundo, fue construida en 1887.
+    """
+
 
     if opcion == 1:
         return punto
@@ -51,6 +104,8 @@ def reglas_puntuacion(opcion):
         return punto_aparte
     elif opcion == 4:
         return punto_final
+    elif opcion == 5:
+        return coma
 
 
 def run():
@@ -66,6 +121,7 @@ def run():
     2 - Punto y seguido
     3 - Punto y aparte
     4 - Punto final
+    5 - La coma
     """
 
 
