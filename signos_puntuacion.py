@@ -31,6 +31,16 @@ def reglas_puntuacion(opcion):
 
     CNN
     """
+    
+    punto_final ="""
+    El punto final es el signo de puntuación que deberás utilizar para concluir una narración, un ensayo o incluso un mensaje de texto pequeño. Su utilización dependerá de la intención comunicativa de tu texto. Si el texto que estás escribiendo tiene una dimensión mayor a la de un artículo, el punto final también te servirá para concluir una sección o un capítulo.
+
+    El siguiente párrafo es un extracto de la entrevista realizada por el medio informativo ABC a la ganadora del premio nobel de literatura, Louise Glück. Hemos omitido toda la entrevista, agregando sólo la conclusión con la intención de que puedas observar en ella una manera eficaz de finalizar un texto informativo.
+
+    Justo antes de terminar, el interlocutor sueco trató de llevar la conversación a los «acontecimientos» que ahora estamos viviendo, pero la Nobel prefirió no entrar en esa materia. «Oh, los acontecimientos… Eso es demasiado grande, y demasiado pronto, apenas son las siete de la mañana aquí… Los dos minutos se han acabado», remató, y se fue a por su café.
+
+    ABC
+    """
 
 
     if opcion == 1:
@@ -39,6 +49,8 @@ def reglas_puntuacion(opcion):
         return punto_seguido
     elif opcion == 3:
         return punto_aparte
+    elif opcion == 4:
+        return punto_final
 
 
 def run():
@@ -53,6 +65,7 @@ def run():
     1 - El punto
     2 - Punto y seguido
     3 - Punto y aparte
+    4 - Punto final
     """
 
 
